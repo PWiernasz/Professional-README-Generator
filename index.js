@@ -9,13 +9,26 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: 'input',
+            name: 'username',
+            message: 'What is your Github username? (Required)',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please provide you Github username');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'title',
             message: 'What is the title of your project? (Required)',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please give your project a title!');
+                    console.log('Please give your project a title');
                     return false;
                 }
             }
@@ -28,7 +41,7 @@ const questions = () => {
                 if (description) {
                     return true;
                 } else {
-                    console.log('Please enter a brief description of your project!');
+                    console.log('Please enter a brief description of your project');
                     return false;
                 }
             }
@@ -41,7 +54,7 @@ const questions = () => {
                 if (installation) {
                     return true;
                 } else {
-                    console.log('Please enter instructions for installation!');
+                    console.log('Please enter instructions for installation');
                     return false;
                 }
             }
@@ -54,7 +67,7 @@ const questions = () => {
                 if (usage) {
                     return true;
                 } else {
-                    console.log('Please enter instructions for usage!');
+                    console.log('Please enter instructions for usage');
                     return false;
                 }
             }
@@ -73,7 +86,7 @@ const questions = () => {
                 if (contrib) {
                     return true;
                 } else {
-                    console.log('Please provide guidelines for contributing!');
+                    console.log('Please provide guidelines for contributing');
                     return false;
                 }
             }
@@ -86,7 +99,7 @@ const questions = () => {
                 if (repo) {
                     return true;
                 } else {
-                    console.log('Please enter a repository!');
+                    console.log('Please enter a repository');
                     return false;
                 }
             }
@@ -99,7 +112,7 @@ const questions = () => {
                 if (tests) {
                     return true;
                 } else {
-                    console.log('If there is no testing available, enter none!');
+                    console.log('If there is no testing available, enter none');
                     return false;
                 }
             }
@@ -112,7 +125,7 @@ const questions = () => {
                 if (email) {
                     return true;
                 } else {
-                    console.log('Please provide an email!');
+                    console.log('Please provide an email');
                     return false;
                 }
             }

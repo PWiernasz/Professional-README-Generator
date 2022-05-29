@@ -1,34 +1,32 @@
 
-  # testing
+  # Professional Readme Generator
   
-  [![License](https://img.shields.io/badge/License-Open-blue.svg)](https://opensource.org/licenses/OSL-3.0)
+  
   ## Description: 
-  testing
+  Creates a readme file
   
   ## Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
+  
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation: 
-  testing
+  need to install node
   ## Usage:
-  testing
-  ## License:
-This project is licensed under Open    
-      
-  ## Contributing:
-  testing
+  through the command line
   
-  https://github.com/testing
+  ## Contributing:
+  guidelines
+  
+  https://github.com/Pwiernasz/professional-README-Generator
   ## Tests:
-  testing
+  instructions for testing
   
   ## Questions:
   If you have questions about this project, please contact at:
-  testing
+  p.wiernasz@gmail.com
   
