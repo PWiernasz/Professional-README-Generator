@@ -1,32 +1,34 @@
 
-  # test
+  # testing
   
-  
+  [![License](https://img.shields.io/badge/License-Open-blue.svg)](https://opensource.org/licenses/OSL-3.0)
   ## Description: 
-  test
+  testing
   
   ## Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  
+  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation: 
-  test
+  testing
   ## Usage:
-  test
-  
+  testing
+  ## License:
+This project is licensed under Open    
+      
   ## Contributing:
-  test
+  testing
   
-  https://github.com/test
+  https://github.com/testing
   ## Tests:
-  test
+  testing
   
   ## Questions:
   If you have questions about this project, please contact at:
-  test
+  testing
   

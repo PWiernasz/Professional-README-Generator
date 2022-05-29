@@ -63,7 +63,7 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Choose a license from the list:',
-            choices: ['none', 'Apache', 'Boost', 'BSD 2', 'BSD 3', 'Eclipse', 'GPLv3', 'GPL v2', 'AGPL v3', 'LGPL v3', 'FDL v1.3', 'Hippocratic License 2.1', 'Hippocratic License 3.0', 'IBM', 'ISC', 'MIT', 'Mozilla', 'ODC BY', 'ODbl', 'PDDL', 'Perl', 'Artistic 2.0', 'Sil', 'Unlicense', 'WTFPL', 'Zlib']
+            choices: ['none', 'Apache', 'Academic', 'GNU', 'ISC', 'MIT', 'Mozilla', 'Open']
         },
         {
             type: 'input',
